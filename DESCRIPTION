@@ -1,0 +1,28 @@
+Package: MetaboDIA
+Type: Package
+Title: DIA-MS data extraction in metabolomics
+Version: 1.3
+Date: 2017-05-05
+Author: Gengbo Chen; Hyungwon Choi
+Maintainer: Hyungwon Choi<hyung_won_choi@nuhs.edu.sg>
+Description: MetaboDIA is novel data extraction framework in DIA-MS for metabolomics applications.
+ With the availability of multiple samples, the MS1-centric identification step enables building a consensus MS/MS spectral assay library over samples.
+ It can perform targeted extraction of transition-level peak areas for each precursor metabolite with additional retention time alignment.
+ A key advantage is that spectral assay libraries can be built using independent DDA runs, or internally within the same DIA data set.
+License: Apache 2.0
+LazyData: TRUE
+Depends: CAMERA
+Imports: CAMERA (>= 0.0)
+Copyright: Gengbo Chen and Hyungwon Choi Licensed under the Apache
+        License, Version 2.0 (the "License"); you not use this file
+        except in compliance with the License. You may obtain a copy of
+        the License at http://www.apache.org/licenses/LICENSE-2.0
+        Unless required by applicable law or agreed to in writing,
+        software distributed under the License is distributed on an "AS
+        IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+        express or implied. See the License for the specific language
+        governing permissions and limitations under the License. The
+        copyright does not include signal extraction modules by
+        XCMS/Camera nor DIA-Umpire
+NeedsCompilation: no
+Packaged: 2017-10-04 02:48:50 UTC; hwchoi_office
